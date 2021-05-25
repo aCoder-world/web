@@ -627,8 +627,8 @@ button.scroll-btn{
         font-size: 3.5rem;
     }
     .hero{
-        padding-top: 5rem;
-        padding-bottom: 7rem;
+        padding-top: 5rem !important;
+        padding-bottom: 7rem !important;
     }
     header{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 90%, 0 100% );
@@ -671,14 +671,14 @@ button.scroll-btn{
         border-bottom-right-radius: 0px !important;
     }
     .mobile-nav ul li a{
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
     .hero{
         flex-direction: column;
-        padding-top: 6rem;
+        padding-top: 6rem !important;
     }
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100% );
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100% ) !important;
     }
     .hero .left img{
         width: 413px !important;
@@ -686,69 +686,69 @@ button.scroll-btn{
         margin-bottom: 5.8rem !important;
     }
     .hero .right{
-        position: absolute;
-        top: 130px;
-        padding: 0 1.2rem;
-        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+        position: absolute !important;
+        top: 130px !important;
+        padding: 0 1.2rem !important;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)) !important;
     }
     header .container .hero .right h1 span.hero-span{
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
     /* section padding */
     section{
-        padding: 3.1rem 0;
+        padding: 3.1rem 0 !important;
     }
     /* about_me */
     section.about .about-inner-wrap{
-        flex-direction: column;
+        flex-direction: column !important;
     }
     section .container .right{
-        text-align: center;
-        margin-top: 2rem;
+        text-align: center !important;
+        margin-top: 2rem !important;
     }
     section .container .left img{
-        width: 320px; height: 250px;
+        width: 320px !important; height: 250px !important;
     }
     section .container .right p{
         line-height: 1.2 !important;
     }
     /* services */
     section.services .card-wrapper{
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 4rem;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-row-gap: 4rem !important;
     }
     section.services .container .services-p{
         margin-bottom: 6rem !important;
     }
     /* freelancer */
     section.freelancer h1{
-        line-height: 1.2;
+        line-height: 1.2 !important;
     }
     section.freelancer {
-        padding-bottom: 6rem;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100% );
+        padding-bottom: 6rem !important;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100% ) !important;
     }
     /* client */
     section.reviews .container .slider .slide {
-        padding: 0 1rem;
+        padding: 0 1rem !important;
     } 
     .section-heading + p {
         margin-bottom: 3rem !important;
     }
     /* work */
     section.work .card-wrapper{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr) !important;
     }
     /* travel */
     section.travel .container .travel-slider .travel-slide .card-wrapper{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) !important;
     }
     section.work .container{
         padding: 0 30px !important;
     }
     /* blog */
     section.blog .container {
-        padding: 0 35px;
+        padding: 0 35px !important;
     }
     /* contact us */
     section.contact .container .card-wrapper .card img{
@@ -756,34 +756,34 @@ button.scroll-btn{
         margin-bottom: 2rem !important;
     }
     section.contact .card-wrapper{
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 2rem;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 2rem !important;
     }
     /* form */
     section.contact .input-wrap {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr) !important;
     }
     /* footer */
     footer .footer-socials a img{
-        width: 40px; height: 40px;
+        width: 40px !important; height: 40px !important;
     }
     footer .footer-socials a{
-        margin: 0 .2rem;
+        margin: 0 .2rem !important;
     }
     footer .footer-logo{
-        margin: -2rem 0;
+        margin: -2rem 0 !important;
     }
     footer .footer-socials{
-        margin-bottom: 2rem;
+        margin-bottom: 2rem !important;
     }
     /* scroll btn */
     button.scroll-btn img {
-        width: 45px;
-        height: 47px;
+        width: 45px !important;
+        height: 47px !important;
     }
     button.scroll-btn {
-        left: 83%;
-        top: 88%;
+        left: 83% !important;
+        top: 88% !important;
     }
 } 
 /* mobile break point 375px */
@@ -792,13 +792,13 @@ button.scroll-btn{
         font-size: 2.3rem !important;
     }
     header .container .hero .right h1 span.hero-span {
-        font-size: 2.3rem;
+        font-size: 2.3rem !important;
     }
     header .container .hero .right p {
-        line-height: 1.5;
+        line-height: 1.5 !important;
     }
     .hero {
-        padding-bottom: 8rem;
+        padding-bottom: 8rem !important;
     }
     .hero .left img {
         width: 320px !important;
@@ -806,14 +806,14 @@ button.scroll-btn{
     }
     /* about */
     .big-font {
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
     section .container .right p {
-        font-size: .9rem;
+        font-size: .9rem !important;
     }
     /* services */
     section.services .card-wrapper .card p {
-        font-size: .9rem;
+        font-size: .9rem !important;
     }
     /* client */
     section.reviews .container .slider .slide {
@@ -821,7 +821,7 @@ button.scroll-btn{
     }
     /* blog */
     section.blog .card-wrapper .card .card-content {
-        padding: 1rem 1rem;
+        padding: 1rem 1rem !important;
     }
     /* contact */
     section.contact .card-wrapper {
@@ -832,8 +832,8 @@ button.scroll-btn{
     }
     /* footer */
     footer .footer-socials a img {
-        width: 35px;
-        height: 35px;
+        width: 35px !important;
+        height: 35px !important;
     }
 }
 /* ----------X----------- media quari------------X----------- */
