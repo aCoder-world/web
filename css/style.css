@@ -792,10 +792,11 @@ button.scroll-btn{
         font-size: 2.3rem !important;
     }
     header .container .hero .right h1 span.hero-span {
-        font-size: 2.3rem !important;
+        font-size: 2.1rem !important;
     }
     header .container .hero .right p {
-        line-height: 1.5 !important;
+        line-height: 1.4 !important;
+        font-size: .9rem !important;
     }
     .hero {
         padding-bottom: 8rem !important;
