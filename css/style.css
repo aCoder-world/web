@@ -694,6 +694,12 @@ button.scroll-btn{
     header .container .hero .right h1 span.hero-span{
         font-size: 3rem !important;
     }
+     header .container .hero .right p {
+        font-size: .9rem !important;
+    }
+    header .container .hero .right h1 span.hero-span {
+        font-size: 3.1rem !important;
+    }
     /* section padding */
     section{
         padding: 3.1rem 0 !important;
