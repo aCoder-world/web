@@ -669,6 +669,10 @@ button.scroll-btn{
     section.blog .container{
         padding: 0 75px;
     }
+/*   contact   */
+    section.contact .card-wrapper .card h6 {
+        font-size: 0.7rem;
+    }
 } 
 /* mobile break point */
 @media (max-width:576px){
