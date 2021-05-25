@@ -786,8 +786,8 @@ button.scroll-btn{
         top: 88%;
     }
 } 
-/* mobile break point 322px */
-@media (max-width:322px){
+/* mobile break point 375px */
+@media (max-width:375px){
     .hero .right h1 {
         font-size: 2.3rem !important;
     }
