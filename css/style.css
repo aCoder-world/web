@@ -610,6 +610,9 @@ button.scroll-btn{
 
 /* Tablet break point */
 @media (max-width:1024px){
+    .container {
+        padding: 0 0 !important;
+    }
     header #main-nav{
         display: none;
     }
@@ -621,7 +624,7 @@ button.scroll-btn{
         margin: 60px -70px -10px -80px !important;
     }
     header .container .hero .right p {
-        font-size: .9rem !important;
+        font-size: .8rem !important;
     }
     header .container .hero .right h1 span.hero-span {
         font-size: 3rem !important;
@@ -699,9 +702,6 @@ button.scroll-btn{
     }
      header .container .hero .right p {
         font-size: .9rem !important;
-    }
-    header .container .hero .right h1 span.hero-span {
-        font-size: 3.1rem !important;
     }
     /* section padding */
     section{
