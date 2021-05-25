@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aCoder_World</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <!-- google font style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- slick  slider_css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- personal css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <style type="text/css">
+        /* blog */
+        section.blog .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-gap: 9rem;
+            margin-top: -2rem;
+        }
+
+        section.blog {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 98%, 0 100%);
+        }
+
+        section.blog .card-wrapper {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        section.blog .card-wrapper .card .img-wrapper {
+            width: auto;
+            height: 400px;
+        }
+
+        /* tending blog */
+        section.blog .tending-blog .card {
+            background: var(--pure);
+            margin-bottom: 2rem;
+        }
+
+        section.blog .tending-blog .card .card-content {
+            padding: 1rem 2rem;
+        }
+
+        section.blog .tending-blog .card .card-content h1 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        section.blog .tending-blog .card .card-content a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        section.blog .tending-blog .card .card-content a:hover {
+            color: var(--primary);
+        }
+
+        section.blog .tending-blog .card .card-content span {
+            color: var(--ternary);
+            font-size: .8rem;
+        }
+
+        section.blog .tending-blog .card .card-content a.read-more {
+            font-size: .8rem;
+        }
+
+        /* back-button */
+        section.blog .main-page-link .btn-back-link {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background: none;
+            border: none;
+        }
+
+        section.blog .main-page-link .btn-back-link a img {
+            width: 60px;
+        }
+
+        /* Tablet break point */
+        @media (max-width:1024px) {
+            section.blog .wrapper {
+                grid-gap: 3rem !important;
+            }
+
+            section.blog .card-wrapper .card .card-content {
+                padding: .8rem 1rem !important;
+            }
+            section.blog .tending-blog .card .card-content {
+                padding: .4rem .6rem !important;
+            }
+
+            section.blog .tending-blog .card .card-content h1 {
+                font-size: .8rem !important;
+            }
+
+            section.blog .tending-blog .card .card-content a {
+                font-size: 1rem !important;
+            }
+        }
+
+        /* mobile break point */
+        @media (max-width:576px) {
+            section.blog .main-page-link .btn-back-link a img {
+                width: 47px;
+            }
+
+            section.blog .wrapper {
+                grid-gap: 1.2rem !important;
+            }
+
+            .section-heading {
+                margin-bottom: 3rem;
+            }
+
+            section.blog .container {
+                padding: 0 31px;
+            }
+
+            section.blog .card-wrapper .card .card-content h1 {
+                font-size: .73rem;
+            }
+
+            section.blog .card-wrapper .card .card-content p {
+                margin-top: 0rem;
+                margin-bottom: 0.4rem;
+                font-size: .73rem;
+            }
+
+            section.blog .card-wrapper .card .card-content a {
+                font-size: .83rem;
+            }
+
+            section.blog .card-wrapper .card .img-wrapper {
+                height: 140px !important;
+            }
+
+            section.blog .tending-blog .card .card-content {
+                padding: .2rem .5rem !important;
+            }
+
+            section.blog .tending-blog .card .card-content h1 {
+                font-size: .5rem !important;
+            }
+
+            section.blog .tending-blog .card .card-content span {
+                font-size: .6rem !important;
+            }
+
+            section.blog .tending-blog .card .card-content a {
+                font-size: .7rem !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--------------------------------- blog ------------------------------------>
+    <section id="blog-2" class="blog">
+        <!----------------------- main page button ---------------------->
+        <div class="main-page-link">
+            <button class="btn-back-link"><a href="index.html"><img src="./img/back-btn-1.png"
+                        alt="main-page-button"></a></button>
+        </div>
+        <!------------x---------- main page button ----------x----------->
+        <div class="container">
+            <h1 class="section-heading"><span class="heading-underline-blog">Our</span> Blog</h1>
+            <p>--------------------</p>
+            <div class="wrapper">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-1.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-2.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-3.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-4.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-5.png" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-6.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-7.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-8.png" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, quaerat
+                                molestiae
+                                architecto possimus perspiciatis neque harum in quam, repellat nis</p>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tending-blog">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-1.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span><br>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-1.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span><br>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-1.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span><br>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-1.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span><br>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper"><img src="./img/blog/blog-1.jpg" alt=""></div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus at iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span><br>
+                            <a href="#">More Analyse</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------X---------------- blog ------------------X----------------->
+
+
+    <!------------------------------- footer ------------------------------------>
+    <footer>
+        <!-- <img class="footer-logo" src="./img/diamond-BC.png" alt=""> -->
+        <div class="footer-socials">
+            <a href="#"><img class="icon icon-1" src="./img/social/1.facebook.png" alt=""></a>
+            <a href="#"><img class="icon icon-2" src="./img/social/1.instagram.png" alt=""></a>
+            <a href="#"><img class="icon icon-3" src="./img/social/1.snapchat.png" alt=""></a>
+            <a href="#"><img class="icon icon-4" src="./img/social/1.telegram.png" alt=""></a>
+            <a href="#"><img class="icon icon-5" src="./img/social/1.twitter.png" alt=""></a>
+            <a href="#"><img class="icon icon-6" src="./img/social/1.youtube.png" alt=""></a>
+        </div>
+        <div class="copyright">Copyright 2021 © Name aCoder_World, All Right Reserved.</div>
+    </footer>
+    <!----------------X-------------- footer -----------------X------------------>
+
+
+    <!---------------------------- scrolling_button ----------------------------->
+    <button class="scroll-btn"><a href="#blog-2"><img src="./img/up_arrow_sky_blue-tc.png"
+                alt="up-scroll-bar"></a></button>
+    <!-------------X-------------- scrolling_button ---------------X------------->
+
+
+    <!-- slick  slider_script -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- personal js link -->
+    <script type="text/javascript" src="./javascript/app.js"></script>
+</body>
+
+</html>
